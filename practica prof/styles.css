@@ -1,0 +1,186 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+/* Contenedor */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ff69b4; /* Color rosado */
+}
+
+/* Título */
+.titulo {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ff69b4; /* Color rosado */
+}
+
+/* Secciones */
+h2 {
+    border-bottom: 2px solid #ff69b4; /* Color rosado */
+    padding-bottom: 10px;
+    color: #ff69b4; /* Color rosado */
+}
+
+p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Imágenes y figuras */
+.img {
+    width: 400px;
+    height: 350px;
+    display: block;
+    margin: 20px 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+/* Formularios */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff69b4; /* Color rosado */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff85c2; /* Color rosado claro */
+}
+
+/* Enlaces */
+.enlace-contacto {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff69b4; /* Color rosado */
+    text-decoration: none;
+    border: 2px solid #ff69b4; /* Color rosado */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.enlace-contacto:hover {
+    background-color: #ff69b4; /* Color rosado */
+    color: white;
+}
+
+/* Listas */
+.menu-lista {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.menu-lista li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #343a40;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer hr {
+    border: 1px solid #ff85c2; /* Color rosado claro */
+    margin-bottom: 10px;
+}
+
+/* Bordes y líneas horizontales */
+hr {
+    border: 1px solid #ff69b4; /* Color rosado */
+    margin: 20px 0;
+}
+
+/* Estilo de texto */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff69b4; /* Color rosado */
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #ff69b4; /* Color rosado */
+}
+
+a:hover {
+    color: #ff85c2; /* Color rosado claro */
+}
